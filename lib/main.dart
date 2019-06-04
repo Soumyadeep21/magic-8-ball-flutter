@@ -22,8 +22,8 @@ class BallApp extends StatefulWidget {
 class _BallAppState extends State<BallApp> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Center(
+      child: Image.asset("images/ball1.png"),
     );
   }
 }
